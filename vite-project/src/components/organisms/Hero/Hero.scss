@@ -1,0 +1,49 @@
+@import "../../../scss/variables";
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: $hero-padding;
+
+    &__text {
+        padding: $hero-text-padding;
+        font-family: $inter;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 3rem;
+
+        & h1 {
+            font-weight: 300;
+            font-size: $fs-hero-h1;
+            line-height: 7rem;  
+        }
+
+        & p {
+            color: $bg-gray-700;
+            font-size: $fs-hero-p;
+            line-height: $lh-hero-p;
+            padding-bottom: 4.5rem;;
+        }
+
+        & button {
+            padding: 2rem 3rem;
+            background-color: $bg-primary;
+            color: $bg-gray-50;
+            font-weight: $fw-semibold;
+            border-radius: $nav-btn-radius;
+            border: none;
+        }
+    }
+}
+
+.bold {
+    font-weight: $fw-extrabold;
+}
+
+.pink {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
