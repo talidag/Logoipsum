@@ -1,0 +1,44 @@
+@import "../../../scss/variables";
+
+.service__card {
+    background-color: $bg-gray-50;
+    padding: $service-card-padding;
+    border: 1px solid $bg-gray-50;
+    border-radius: .7rem;
+    cursor: pointer;
+
+    & h4 {
+        padding-top: 1.5rem;
+        font-size: $fs-services-title;
+        color: $bg-gray-800;
+        font-weight: $fw-semibold;    
+    }
+
+
+    & p {
+        padding-top: 2rem;
+        font-size: $fs-services-p;
+        color: $bg-gray-600;
+        font-weight: $fw-regular;
+        line-height: 2.2rem;
+    }
+
+    &:hover {
+        border: 1px solid #F76680;
+    }
+
+}
+
+.card {
+    &__circle {
+        position: relative;
+    }
+}
+
+.card__icon {
+    position: absolute;
+    top: 1.2rem;
+    left: 1.2rem;
+    width: 3.4rem;
+
+}

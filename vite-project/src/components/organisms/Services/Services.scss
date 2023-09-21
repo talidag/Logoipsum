@@ -1,0 +1,21 @@
+@import "../../../scss/variables";
+
+.services {
+    background-color: $services-bk;
+    font-family: $inter;
+
+    & h2 {
+        font-weight: $fw-bold;
+        font-size: $fs-services-heading;
+        text-align: center;
+        padding-top: 4.5rem;
+        padding-bottom: 2.7rem;
+    }
+
+
+    &__carousel {
+        display: flex;
+        gap: 4rem;
+        padding: $services-padding;
+    }
+}
