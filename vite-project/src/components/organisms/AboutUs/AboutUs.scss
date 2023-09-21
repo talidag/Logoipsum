@@ -1,0 +1,26 @@
+@import "../../../scss/variables";
+
+.about {
+    display: flex;
+    gap: 9.5rem;
+    padding-top: 18rem;
+    padding-bottom: 16rem;
+
+    &__left {
+
+        padding-left: 10rem;
+
+        & h2:first-of-type {
+            padding-top: 2rem;
+        }
+
+        & .main-p {
+            padding-top: 3rem;
+            padding-bottom: 5rem;
+        }
+    }
+
+    & img {
+        padding-right: 10rem;
+    }
+}

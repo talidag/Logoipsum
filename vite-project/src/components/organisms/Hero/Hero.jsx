@@ -1,8 +1,11 @@
 import "./Hero.scss";
 import heroImg from "../../../assets/web-development.png";
 import Button from "../../atoms/Button/Button";
+import Paragraph from "../../atoms/Paragraph/Paragraph";
 
 const Hero = () => {
+  const heroParagraph =
+    " We help build and manage a team of world-class developers to bring your vision to life";
   return (
     <section className="hero">
       <div className="hero__text">
@@ -14,10 +17,7 @@ const Hero = () => {
             built by great <span className="pink">teams</span>
           </span>
         </h1>
-        <p>
-          We help build and manage a team of world-class developers to bring
-          your vision to life
-        </p>
+        <Paragraph text={heroParagraph} className="gray700" />
         <Button text="Let’s get started!" className="btn-purple" />
       </div>
       <div className="hero__image">

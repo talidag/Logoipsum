@@ -1,0 +1,12 @@
+@import "../../../scss/variables";
+
+.main-p {         
+    color: $bg-gray-600;
+    font-size: $fs-hero-p;
+    line-height: $lh-hero-p;
+    font-family: $inter;
+}
+
+.gray700 {
+    color: $bg-gray-700;
+}
