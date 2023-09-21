@@ -9,8 +9,10 @@ import icon7 from "../../../assets/icons/icon-7.svg";
 import icon8 from "../../../assets/icons/icon-8.svg";
 import icon9 from "../../../assets/icons/icon-9.svg";
 import ServiceCard from "../../molecules/ServiceCard/ServiceCard";
+import Heading from "../../atoms/Heading/Heading";
 
 const Services = () => {
+  const servicesHeading = "Services we offer";
   const ourServices = [
     {
       icon: icon1,
@@ -61,7 +63,7 @@ const Services = () => {
 
   return (
     <section className="services">
-      <h2>Services we offer</h2>
+      <Heading text={servicesHeading} className="heading--bold" />
       <div className="services__carousel">
         {ourServices.map((service, index) => (
           <ServiceCard {...service} key={index} />

@@ -1,0 +1,15 @@
+@import "../../../scss/variables";
+
+h2 {
+    font-size: $fs-services-heading;
+    font-family: $inter;
+    line-height: 5.5rem;
+}
+
+.heading--bold {
+    font-weight: $fw-bold;
+}
+
+.heading--normal {
+    font-weight: $fw-regular;
+}
