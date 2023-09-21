@@ -25,15 +25,6 @@
             line-height: $lh-hero-p;
             padding-bottom: 4.5rem;;
         }
-
-        & button {
-            padding: 2rem 3rem;
-            background-color: $bg-primary;
-            color: $bg-gray-50;
-            font-weight: $fw-semibold;
-            border-radius: $nav-btn-radius;
-            border: none;
-        }
     }
 }
 
@@ -43,7 +34,7 @@
 
 .pink {
     background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
-        -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

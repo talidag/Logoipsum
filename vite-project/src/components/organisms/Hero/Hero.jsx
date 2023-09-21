@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import heroImg from "../../../assets/web-development.png";
+import Button from "../../atoms/Button/Button";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           We help build and manage a team of world-class developers to bring
           your vision to life
         </p>
-        <button>Let’s get started!</button>
+        <Button text="Let’s get started!" className="btn-purple" />
       </div>
       <div className="hero__image">
         <img src={heroImg} alt="" />

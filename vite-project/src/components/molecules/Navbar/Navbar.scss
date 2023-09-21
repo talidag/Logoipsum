@@ -14,7 +14,7 @@ nav {
     &__logo {
         cursor: pointer;
     }
-
+    
     &__links {
         display: flex;
         gap: 5rem;
@@ -22,21 +22,5 @@ nav {
         color: $bg-gray-700;
         font-weight: $fw-medium;
 
-    }
-
-    &__button {
-        & button {
-        padding: $nav-btn-padding;
-        color: $bg-gray-50;
-        background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
-        border-radius: $nav-btn-radius;
-        border: none;
-        font-weight: $fw-semibold;
-        cursor: pointer;
-        
-            &:hover {
-                background: linear-gradient(225deg, #FF92AE 0%, #FF3D9A 100%);
-            }
-        }
     }
 }

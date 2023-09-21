@@ -1,0 +1,27 @@
+@import "../../../scss/variables";
+
+.btn-atom {
+    padding: $nav-btn-padding;
+    color: $bg-gray-50;
+    border-radius: $nav-btn-radius;
+    border: none;
+    font-weight: $fw-semibold;
+    cursor: pointer;
+}
+
+.btn-gradient {
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+
+    &:hover {
+        background: linear-gradient(225deg, #FF92AE 0%, #FF3D9A 100%);
+    }
+}
+
+.btn-purple {
+    background-color: $bg-primary;
+
+    &:hover {
+        background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    }
+}
+

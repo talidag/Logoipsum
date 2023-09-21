@@ -1,6 +1,7 @@
 import NavEl from "../../atoms/NavEl/NavEl";
 import "./Navbar.scss";
 import logo from "../../../assets/logo-name.svg";
+import Button from "../../atoms/Button/Button";
 
 const Navbar = () => {
   const navLinks = [
@@ -21,9 +22,7 @@ const Navbar = () => {
           <NavEl link={navEl} key={index} />
         ))}
       </div>
-      <div className="nav__button">
-        <button>Contact us</button>
-      </div>
+      <Button text="Contact us" className="btn-gradient" />
     </nav>
   );
 };
