@@ -10,7 +10,8 @@
     display: flex;
     justify-content: center;
     padding: $hero-padding;
-
+    position: relative;
+    
     &__text {
         padding: $hero-text-padding;
         font-family: $inter;
@@ -39,3 +40,9 @@
     @include gradient-text;
 }
 
+.circle-hero {
+    position: absolute;
+    bottom: -3.6rem;
+    left: 48rem;
+    z-index: -1;
+}

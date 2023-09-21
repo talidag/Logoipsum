@@ -4,6 +4,7 @@ import Paragraph from "../../atoms/Paragraph/Paragraph";
 import "./AboutUs.scss";
 import line from "../../../assets/line.svg";
 import aboutVideo from "../../../assets/about-video.png";
+import circle from "../../../assets/circle.svg";
 
 const AboutUs = () => {
   const aboutUsHeading = "Leading companies trust us";
@@ -20,6 +21,7 @@ const AboutUs = () => {
         <MoreInfoButton text="See more Information" />
       </div>
       <img src={aboutVideo} alt="" />
+      <img src={circle} alt="" className="circle-about" />
     </section>
   );
 };

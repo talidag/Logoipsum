@@ -3,6 +3,7 @@
 .services {
     background-color: $services-bk;
     font-family: $inter;
+    z-index: 2;
 
     & h2 {
         text-align: center;

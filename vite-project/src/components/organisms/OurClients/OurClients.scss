@@ -1,0 +1,45 @@
+@import "../../../scss/variables";
+
+.clients {
+    padding-bottom: 7rem;
+
+    &__left {
+        padding-left: 10rem;
+    }
+
+    & h2:first-of-type {
+        padding-top: 2rem;
+    }
+
+    & h2:last-of-type {
+        padding-bottom: 7rem;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        gap: 2.2rem;
+        & img:last-of-type {
+            transform: rotate(180deg);
+        }
+        position: absolute;
+        right: 8rem;
+        top: -7.5rem;
+    }
+
+    & .logos {
+        display: flex;
+        gap: 5rem;
+        background-color: #F7F7FA;
+        padding: 6rem 0;
+        position: relative;  
+    }
+}
+
+
+.circle-clients {
+    position: absolute;
+    top: -3.6rem;
+    right: 55rem;
+    z-index: -1;
+}

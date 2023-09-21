@@ -2,12 +2,15 @@ import "./Hero.scss";
 import heroImg from "../../../assets/web-development.png";
 import Button from "../../atoms/Button/Button";
 import Paragraph from "../../atoms/Paragraph/Paragraph";
+import circle from "../../../assets/circle.svg";
 
 const Hero = () => {
   const heroParagraph =
-    " We help build and manage a team of world-class developers to bring your vision to life";
+    "We help build and manage a team of world-class developers to bring your vision to life";
+  const heroBtnText = "Let’s get started!";
   return (
     <section className="hero">
+      <img src={circle} alt="" className="circle-hero" />
       <div className="hero__text">
         <h1>
           Great <span className="pink">software</span> is
@@ -18,7 +21,7 @@ const Hero = () => {
           </span>
         </h1>
         <Paragraph text={heroParagraph} className="gray700" />
-        <Button text="Let’s get started!" className="btn-purple" />
+        <Button text={heroBtnText} className="btn-purple" />
       </div>
       <div className="hero__image">
         <img src={heroImg} alt="" />
