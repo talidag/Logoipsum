@@ -2,6 +2,7 @@ import Navbar from "./components/molecules/Navbar/Navbar";
 import AboutUs from "./components/organisms/AboutUs/AboutUs";
 import Hero from "./components/organisms/Hero/Hero";
 import OurClients from "./components/organisms/OurClients/OurClients";
+import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
 import Services from "./components/organisms/Services/Services";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Services />
       <AboutUs />
       <OurClients />
+      <OurCustomers />
     </div>
   );
 };

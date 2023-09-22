@@ -19,12 +19,18 @@
         display: flex;
         align-items: center;
         gap: 2.2rem;
-        & img:last-of-type {
-            transform: rotate(180deg);
-        }
         position: absolute;
         right: 8rem;
         top: -7.5rem;
+
+        & img {
+            cursor: pointer;
+        }
+
+        & img:last-of-type {
+            transform: rotate(180deg);
+        }
+
     }
 
     & .logos {
@@ -33,6 +39,10 @@
         background-color: #F7F7FA;
         padding: 6rem 0;
         position: relative;  
+
+        & img {
+            cursor: pointer;
+        }
     }
 }
 

@@ -1,0 +1,38 @@
+@import "../../../scss/variables";
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    &__line {
+        padding-bottom: 2rem;
+    }
+}
+
+.left__comma {
+    position: absolute;
+    top: 19rem;
+    left: 35rem;
+}
+
+.right__comma {
+    position: absolute;
+    top: 30rem;
+    right: 35rem;
+    transform: scaleX(-1);
+}
+
+.left__btn {
+    position: absolute;
+    top: 30rem;
+    left: 8rem;
+}
+
+.right__btn {
+    position: absolute;
+    top: 30rem;
+    right: 8rem;
+    transform: scaleX(-1);
+}
