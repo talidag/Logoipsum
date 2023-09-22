@@ -1,9 +1,11 @@
 @import "../../../scss/variables";
 
 .services {
-    background-color: $services-bk;
     font-family: $inter;
     z-index: 2;
+    border-top: 1px solid #E7DAED;
+    border-bottom: 1px solid #E7DAED;
+    background-color: $services-bk;
 
     & h2 {
         text-align: center;

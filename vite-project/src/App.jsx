@@ -1,5 +1,6 @@
 import Navbar from "./components/molecules/Navbar/Navbar";
 import AboutUs from "./components/organisms/AboutUs/AboutUs";
+import CaseStudies from "./components/organisms/CaseStudies/CaseStudies";
 import Hero from "./components/organisms/Hero/Hero";
 import OurClients from "./components/organisms/OurClients/OurClients";
 import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
@@ -14,6 +15,7 @@ const App = () => {
       <AboutUs />
       <OurClients />
       <OurCustomers />
+      <CaseStudies />
     </div>
   );
 };

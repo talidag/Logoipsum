@@ -1,0 +1,52 @@
+@import "../../../scss/variables";
+
+@mixin gradient-text() {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.studies__card {
+    display: flex;
+    font-family: $inter;
+    border-radius: 3rem;
+    box-shadow: inset 0 0 2px #E7DAED;
+    // added box-shadow instead of border to make sure there is no border
+    // on the image
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        padding: 6.5rem 5rem 9rem 5rem;
+
+        & h5 {
+            font-size: $fs-studies-h;
+            font-weight: $fw-semibold;
+            color: $bg-gray-800;
+            padding-bottom: 3rem;
+        }
+
+        & p {
+            font-size: $fs-services-p;
+            color: $bg-gray-700;
+            line-height: 2.2rem;
+        }
+    }
+}
+
+.more__info__studies {
+    display: flex;
+    align-items: center;
+    font-family: $inter;
+    @include gradient-text;
+    padding-top: 6rem;
+    padding-left: 43rem;
+    line-height: 1.4rem;
+    cursor: pointer;
+
+    & h6 {
+        font-size: $fs-services-p;
+        padding-right: .3rem;
+    }
+}
+
