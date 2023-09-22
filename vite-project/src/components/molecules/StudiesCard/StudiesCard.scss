@@ -37,16 +37,19 @@
 .more__info__studies {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     font-family: $inter;
     @include gradient-text;
-    padding-top: 6rem;
-    padding-left: 43rem;
+    margin-top: 6rem;
+    margin-left: 43rem;
     line-height: 1.4rem;
     cursor: pointer;
 
     & h6 {
         font-size: $fs-services-p;
-        padding-right: .3rem;
+        padding-right: .7rem;
+        width: 100%;
+        margin-left: 1.3rem;
     }
 }
 

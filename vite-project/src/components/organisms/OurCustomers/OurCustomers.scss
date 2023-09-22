@@ -28,6 +28,7 @@
     position: absolute;
     top: 30rem;
     left: 8rem;
+    cursor: pointer;
 }
 
 .right__btn {
@@ -35,4 +36,5 @@
     top: 30rem;
     right: 8rem;
     transform: scaleX(-1);
+    cursor: pointer;
 }
