@@ -1,5 +1,4 @@
 import "./OurCustomers.scss";
-import Heading from "../../atoms/Heading/Heading";
 import TestimonialCard from "../../molecules/TestimonialCard/TestimonialCard";
 import cust1 from "../../../assets/cust1.svg";
 import cust2 from "../../../assets/cust2.svg";
@@ -9,6 +8,7 @@ import cust5 from "../../../assets/cust5.svg";
 import line from "../../../assets/line.svg";
 import comma from "../../../assets/comma.svg";
 import btnLeft from "../../../assets/btn-left.svg";
+import HeadingLine from "../../molecules/HeadingLine/HeadingLine";
 
 const OurCustomers = () => {
   const ourCustomersHeading = "Why customers love";
@@ -60,9 +60,10 @@ const OurCustomers = () => {
     <section className="customers">
       <img src={btnLeft} alt="" className="left__btn" />
       <img src={comma} alt="" className="left__comma" />
-      <img src={line} alt="" className="customers__line" />
-      <Heading text={ourCustomersHeading} className="heading--normal" />
-      <Heading text={ourCustomersHeadingBold} className="heading--bold" />
+      <HeadingLine
+        normalText={ourCustomersHeading}
+        boldText={ourCustomersHeadingBold}
+      />
       <div className="testimonials">
         {customersData.map((testimonial, index) => (
           <TestimonialCard {...testimonial} key={index} />

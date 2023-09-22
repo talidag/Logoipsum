@@ -9,7 +9,7 @@ import icon7 from "../../../assets/icons/icon-7.svg";
 import icon8 from "../../../assets/icons/icon-8.svg";
 import icon9 from "../../../assets/icons/icon-9.svg";
 import ServiceCard from "../../molecules/ServiceCard/ServiceCard";
-import Heading from "../../atoms/Heading/Heading";
+import HeadingLine from "../../molecules/HeadingLine/HeadingLine";
 
 const Services = () => {
   const servicesHeading = "Services we offer";
@@ -63,7 +63,7 @@ const Services = () => {
 
   return (
     <section className="services">
-      <Heading text={servicesHeading} className="heading--bold" />
+      <HeadingLine boldText={servicesHeading} type="none" />
       <div className="services__carousel">
         {ourServices.map((service, index) => (
           <ServiceCard {...service} key={index} />

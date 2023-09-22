@@ -1,6 +1,6 @@
 import "./OurClients.scss";
 import line from "../../../assets/line.svg";
-import Heading from "../../atoms/Heading/Heading";
+import HeadingLine from "../../molecules/HeadingLine/HeadingLine";
 import logo5 from "../../../assets/logos/logo5.svg";
 import logo6 from "../../../assets/logos/logo6.svg";
 import logo7 from "../../../assets/logos/logo7.svg";
@@ -16,9 +16,11 @@ const OurClients = () => {
   return (
     <section className="clients">
       <div className="clients__left">
-        <img src={line} alt="" />
-        <Heading text={ourClientsNormal} className="heading--normal" />
-        <Heading text={ourClientsBold} />
+        <HeadingLine
+          normalText={ourClientsNormal}
+          boldText={ourClientsBold}
+          type="left"
+        />
       </div>
 
       <div className="logos">

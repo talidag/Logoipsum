@@ -1,5 +1,5 @@
 import "./CaseStudies.scss";
-import Heading from "../../atoms/Heading/Heading";
+import HeadingLine from "../../molecules/HeadingLine/HeadingLine";
 import line from "../../../assets/line.svg";
 import cs1 from "../../../assets/cs1.png";
 import cs2 from "../../../assets/cs2.png";
@@ -43,9 +43,7 @@ const CaseStudies = () => {
       <img src={upArrow} alt="" className="up__arrrow" />
       <img src={downArrow} alt="" className="down__arrrow" />
       <img src={smallCircle} alt="" className="small__circle" />
-      <img src={line} alt="" className="studies__line" />
-      <Heading text={studiesHeading} className="heading--normal" />
-      <Heading text={studiesHeadingBold} className="heading--bold" />
+      <HeadingLine normalText={studiesHeading} boldText={studiesHeadingBold} />
       <div className="studies__cards">
         {studiesData.map((data, index) => (
           <StudiesCard {...data} key={index} />

@@ -1,5 +1,13 @@
 @import "../../../scss/variables";
 
+
+.heading__line {
+    text-align: center;
+    & img {
+        padding-bottom: 2rem;
+    }
+}
+
 .main-h {
     font-size: $fs-services-heading;
     font-family: $inter;

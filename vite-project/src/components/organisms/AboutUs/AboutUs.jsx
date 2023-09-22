@@ -1,10 +1,9 @@
-import Heading from "../../atoms/Heading/Heading";
 import Paragraph from "../../atoms/Paragraph/Paragraph";
 import "./AboutUs.scss";
-import line from "../../../assets/line.svg";
 import aboutVideo from "../../../assets/about-video.png";
 import circle from "../../../assets/circle.svg";
 import rightArrow from "../../../assets/right-arrow.svg";
+import HeadingLine from "../../molecules/HeadingLine/HeadingLine";
 
 const AboutUs = () => {
   const aboutUsHeading = "Leading companies trust us";
@@ -15,10 +14,12 @@ const AboutUs = () => {
   return (
     <section className="about">
       <div className="about__left">
-        <img src={line} alt="" />
-        <Heading text={aboutUsHeading} className="heading--normal" />
-        <Heading text={aboutUsHeadingBold} className="heading--bold" />
-        <Paragraph text={aboutUsParagraph} span={3} />
+        <HeadingLine
+          normalText={aboutUsHeading}
+          boldText={aboutUsHeadingBold}
+          type="left"
+        />
+        <Paragraph text={aboutUsParagraph} />
         <div className="moreBtn">
           <p>{moreInfoBtn}</p>
           <img src={rightArrow} alt="" />
