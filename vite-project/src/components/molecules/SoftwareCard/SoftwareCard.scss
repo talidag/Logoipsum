@@ -1,0 +1,78 @@
+@import "../../../scss/variables";
+
+@mixin gradient-text() {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.software__card {
+    display: flex;
+    gap: 12rem;
+    font-family: $inter;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+
+        & h3 {
+            font-size: $fs-studies-h;
+            font-weight: $fw-semibold;
+            line-height: 3.8rem;
+            padding-top: 2rem;
+        }
+
+        & p {
+            font-size: $fs-hero-p;
+            color: $bg-gray-800;
+            line-height: 3rem;
+        }
+
+        & q {
+            font-style: italic;
+            font-size: $fs-nav-link;
+            line-height: 3rem;
+            padding-left: 1.5rem;
+            @include gradient-text;
+        }
+    }
+}
+
+.sc__firstP {
+    padding-top: 3rem;
+}
+
+.sc__secondP {
+    padding-top: 2rem;
+}
+
+.sc__quote {
+    display: flex;
+    align-items: center;
+    padding: 2rem 8rem 2.5rem 0;
+}
+
+.sc__person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        & p:first-of-type {
+            color: $bg-gray-900;
+            line-height: 1rem;
+            padding-top: 1rem;
+
+        }
+
+        & p {
+            color: $bg-gray-600;
+
+        }
+    }
+}

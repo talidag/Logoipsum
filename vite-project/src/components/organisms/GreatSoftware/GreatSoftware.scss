@@ -1,0 +1,59 @@
+@import "../../../scss/variables";
+
+.software {
+    padding: 8rem 10rem 7.5rem 10rem;
+    position: relative;
+
+    &__cards {
+        padding-top: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 9.5rem;
+    }
+}
+
+.yellow--first {
+    position: absolute;
+    top: 26rem;
+    left: 73rem;
+    z-index: -1;
+}
+
+.purple--first {
+    position: absolute;
+    top: 74.5rem;
+    left: 104rem;
+    height: 3.5rem;
+    z-index: -1;
+}
+
+.yellow--second {
+    position: absolute;
+    top: 130rem;
+    left: 19rem;
+    z-index: -1;
+}
+
+.purple--second {
+    position: absolute;
+    top: 84.5rem;
+    left: 65rem;
+    height: 3.5rem;
+    z-index: -1;
+}
+
+.yellow--third {
+    position: absolute;
+    bottom: 6rem;
+    height: 4.3rem;
+    left: 75rem;
+    z-index: -1;
+}
+
+.purple--third {
+    position: absolute;
+    height: 3.5rem;
+    bottom: 53rem;
+    right: 35rem;
+    z-index: -1;
+}
