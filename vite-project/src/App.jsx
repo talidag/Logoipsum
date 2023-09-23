@@ -1,6 +1,7 @@
 import Navbar from "./components/molecules/Navbar/Navbar";
 import AboutUs from "./components/organisms/AboutUs/AboutUs";
 import CaseStudies from "./components/organisms/CaseStudies/CaseStudies";
+import Development from "./components/organisms/Development/Development";
 import GreatSoftware from "./components/organisms/GreatSoftware/GreatSoftware";
 import Hero from "./components/organisms/Hero/Hero";
 import OurClients from "./components/organisms/OurClients/OurClients";
@@ -18,6 +19,7 @@ const App = () => {
       <OurCustomers />
       <CaseStudies />
       <GreatSoftware />
+      <Development />
     </div>
   );
 };
