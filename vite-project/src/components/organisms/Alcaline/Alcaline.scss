@@ -1,0 +1,67 @@
+@import "../../../scss/variables";
+
+
+.alcaline {
+    padding: 9rem 17rem 9rem 14rem;
+    border-top: 1px solid #E7DAED;
+    position: relative;
+
+    &__dev {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 7rem;
+        grid-row-gap: 9rem;
+        padding-top: 9rem;
+
+
+    }
+}
+
+.ac--line {
+    position: absolute;
+    top: 51.5rem;
+
+    &-1 {
+        position: absolute;
+        top: 48.7rem;
+        left: 28rem;
+    }
+
+    &-2 {
+        position: absolute;
+        top: 51.7rem;
+        left: 34rem;
+    }
+
+    &-3 {
+        position: absolute;
+        top: 48.7rem;
+        left: 65rem;
+    }
+
+    &-4 {
+        position: absolute;
+        top: 51.7rem;
+        right: 71rem;
+    }
+
+    &-5 {
+        position: absolute;
+        top: 48.7rem;
+        right:  39rem;
+    }
+
+    &-6 {
+        position: absolute;
+        top: 51.7rem;
+        right: 32rem;
+    }
+}
+
+.ac--trophy {
+    position: absolute;
+    top: 49.5rem;
+    right: 7.5rem;
+
+}

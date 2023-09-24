@@ -9,6 +9,7 @@ import tsBe6 from "../../../assets/ts-backend6.svg";
 import tsBe7 from "../../../assets/ts-backend7.svg";
 import tsBe8 from "../../../assets/ts-backend8.svg";
 import tsBe9 from "../../../assets/ts-backend9.svg";
+import { Fragment } from "react";
 
 const TechStack = () => {
   const techNormalHeading = "Our";
@@ -46,14 +47,19 @@ const TechStack = () => {
         {techData.map((data, index) => {
           const { type, stacks } = data;
           return (
-            <>
+            <Fragment key={index}>
               <p key={index}>{type}</p>
               <div className="tech__stacks__img">
-                {stacks.map((stack) => (
-                  <img src={stack} alt="" />
+                {stacks.map((stack, index) => (
+                  <img
+                    src={stack}
+                    alt=""
+                    key={index}
+                    style={index >= 5 ? { marginLeft: "5.5rem" } : {}}
+                  />
                 ))}
               </div>
-            </>
+            </Fragment>
           );
         })}
       </div>

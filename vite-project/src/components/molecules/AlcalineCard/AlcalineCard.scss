@@ -1,0 +1,39 @@
+@import "../../../scss/variables";
+
+@mixin gradient-text() {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.ac {
+    font-family: $inter;
+    border: 1px solid #E7DAED;
+    border-radius: 1rem;
+    padding: 2.2rem 1.4rem 2.5rem 2rem;
+    width: 30rem;
+    height: 16rem;
+
+    &__title {
+        display: flex;
+        gap: 1rem;
+        font-size: $fs-hero-p;
+        line-height: 2rem;
+        padding-bottom: 1.5rem;
+        color: $bg-gray-900;
+        letter-spacing: -0.09px;
+
+        &__index {
+            @include gradient-text;
+        }
+    }
+
+    &__description {
+        color: $bg-gray-600;
+
+        & p {
+            line-height: 2rem;
+            font-size: $fs-services-p;
+        }
+    }
+}

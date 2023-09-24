@@ -1,5 +1,6 @@
 import Navbar from "./components/molecules/Navbar/Navbar";
 import AboutUs from "./components/organisms/AboutUs/AboutUs";
+import Alcaline from "./components/organisms/Alcaline/Alcaline";
 import CaseStudies from "./components/organisms/CaseStudies/CaseStudies";
 import Development from "./components/organisms/Development/Development";
 import GreatSoftware from "./components/organisms/GreatSoftware/GreatSoftware";
@@ -22,6 +23,7 @@ const App = () => {
       <GreatSoftware />
       <Development />
       <TechStack />
+      <Alcaline />
     </div>
   );
 };

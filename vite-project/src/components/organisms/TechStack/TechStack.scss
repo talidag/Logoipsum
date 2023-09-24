@@ -40,10 +40,11 @@
             & img {
                 height: 8rem;
                 width: 16rem;
+                cursor: pointer;
             
-                &:nth-child(6) {
+                // &:nth-child(6) {
                     // padding-left: 16rem;
-                }
+                // }
             }
         }
     }
