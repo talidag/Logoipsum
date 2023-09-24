@@ -7,6 +7,7 @@ import Hero from "./components/organisms/Hero/Hero";
 import OurClients from "./components/organisms/OurClients/OurClients";
 import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
 import Services from "./components/organisms/Services/Services";
+import TechStack from "./components/organisms/TechStack/TechStack";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <CaseStudies />
       <GreatSoftware />
       <Development />
+      <TechStack />
     </div>
   );
 };

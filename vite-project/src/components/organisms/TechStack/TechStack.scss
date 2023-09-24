@@ -1,0 +1,50 @@
+@import "../../../scss/variables";
+@mixin gradient-text() {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tech {
+    padding: 8rem 18rem 9rem 18rem;
+
+    &__stacks {
+
+        & p {
+            margin-top: 3.8rem;
+            font-family: $inter;
+            font-size: $fs-hero-p;
+            color: $bg-gray-900;
+            line-height: 3rem;
+            margin-bottom: 7.5rem;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 15rem;
+
+            &:hover {
+                @include gradient-text;
+                font-weight: $fw-semibold;
+            }
+        }
+
+        &__img {
+            display: inline-grid;
+            grid-template-columns: repeat(5, max-content);
+            grid-auto-flow: row;
+            column-gap: 6rem;
+            row-gap: 3rem;
+
+          
+        
+            & img {
+                height: 8rem;
+                width: 16rem;
+            
+                &:nth-child(6) {
+                    // padding-left: 16rem;
+                }
+            }
+        }
+    }
+}
