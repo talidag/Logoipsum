@@ -1,0 +1,87 @@
+@import "../../../scss/variables";
+
+.footer {
+    display: flex;
+    align-items: start;
+    gap: 6rem;
+    font-family: $inter;
+    color: $bg-gray-600;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    font-size: $fs-hero-p;
+    line-height: 3rem;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid #CBD5E0;
+    position: relative;
+
+    &__logo {
+        & p {
+            padding-top: 1.5rem;
+            padding-bottom: 3.5rem;
+            padding-right: 7rem;
+        }
+    }
+
+    &__links {
+        width: 20rem; // Check this!
+        & h5 {
+            font-size: $fs-hero-p;
+            font-weight: $fw-bold;
+            padding-bottom: 2rem;
+        }
+
+        & ul {
+            
+            & li {
+                margin-bottom: 1rem;
+                
+                & a {
+                    display: inline
+                }
+            }
+        }
+    }
+
+    &__contact {
+        & h5 {
+            font-size: $fs-hero-p;
+            font-weight: $fw-bold;
+            padding-bottom: 2rem;
+        }
+
+        & p {
+            padding-bottom: 2rem;
+        }
+    }
+}
+
+
+.copyright {
+    color: $bg-gray-700;
+    padding: 3.5rem 52rem;
+    font-family: $inter;
+    
+    font-size: $fs-services-p;
+    line-height: 1rem;
+    letter-spacing: -0.005rem;
+}
+
+.social__media {
+    position: absolute;
+    bottom: 17rem;
+    right: 25rem;
+    gap: 1.5rem;
+    display: flex;
+
+    & button {
+        border-radius: 50%;
+        padding: 1.1rem;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 4px 14px 0px #00000026;
+        background: #FAFAFA;
+            &:hover {
+                transform: scale(1.1);
+            }
+    }
+}

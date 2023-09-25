@@ -11,6 +11,7 @@ import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
 import Resources from "./components/organisms/Resources/Resources";
 import Services from "./components/organisms/Services/Services";
 import TechStack from "./components/organisms/TechStack/TechStack";
+import Footer from "./components/organisms/Footer/Footer";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Alcaline />
       <Resources />
       <Hire />
+      <Footer />
     </div>
   );
 };
