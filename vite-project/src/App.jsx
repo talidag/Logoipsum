@@ -5,6 +5,7 @@ import CaseStudies from "./components/organisms/CaseStudies/CaseStudies";
 import Development from "./components/organisms/Development/Development";
 import GreatSoftware from "./components/organisms/GreatSoftware/GreatSoftware";
 import Hero from "./components/organisms/Hero/Hero";
+import Hire from "./components/organisms/Hire/Hire";
 import OurClients from "./components/organisms/OurClients/OurClients";
 import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
 import Resources from "./components/organisms/Resources/Resources";
@@ -26,6 +27,7 @@ const App = () => {
       <TechStack />
       <Alcaline />
       <Resources />
+      <Hire />
     </div>
   );
 };

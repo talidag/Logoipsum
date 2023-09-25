@@ -1,0 +1,40 @@
+@import "../../../scss/variables";
+
+.hire {
+    padding: 0 10rem 10rem 10rem;
+
+    &__container {
+        background: linear-gradient(225deg, #F1F1F5 0%, #E4ECF7 100%);
+        border: 1px solid #FFFFFF;
+        display: flex;
+        align-items: center;
+        font-family: $inter;
+        padding: 8.5rem;
+        gap: 30rem;
+        line-height: 5.5rem;
+        position: relative;
+        border-radius: 2rem;
+
+        & h2 {
+            font-size: $fs-services-heading;
+            font-weight: $fw-bold;
+        }
+
+        & button {
+            background: linear-gradient(225deg, #FFC656 0%, #F16063 100%);
+            border: 1px solid #FFFFFF;
+            padding: 1.7rem 4.3rem;
+            color: #FAFAFA;
+            font-weight: $fw-bold;
+            letter-spacing: -0.09px;
+            font-size: $fs-hero-p;
+            font-family: inherit;
+            white-space: nowrap;
+        }
+    }
+    
+    .hire-btn {
+        position: absolute;
+        right: 15rem;
+    }
+}
