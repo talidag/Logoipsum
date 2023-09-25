@@ -1,6 +1,7 @@
 @import "../../../scss/variables";
 
 .resources {
+    padding-bottom: 7.5rem;
 
     &__card {
         display: flex;
@@ -8,6 +9,5 @@
         justify-content: center;
         gap: 6rem;
         padding-top: 6.6rem;
-        padding-bottom: 15rem;;
    }   
 }

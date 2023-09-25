@@ -10,10 +10,10 @@
 }
 
 .btn-gradient {
-    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    background: linear-gradient(225deg, $bg-secondary 0%, $bg-primary 100%);
 
     &:hover {
-        background: linear-gradient(225deg, #FF92AE 0%, #FF3D9A 100%);
+        background: linear-gradient(225deg, $bg-tertiary 0%, $bg-random 100%);
     }
 }
 
@@ -21,7 +21,7 @@
     background-color: $bg-primary;
 
     &:hover {
-        background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+        background: linear-gradient(225deg, $bg-secondary 0%, $bg-primary 100%);
     }
 }
 

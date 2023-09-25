@@ -18,17 +18,29 @@ const App = () => {
     <div className="app">
       <Navbar />
       <Hero />
-      <Services />
-      <AboutUs />
+      <section id="services">
+        <Services />
+      </section>
+      <section id="about-us">
+        <AboutUs />
+      </section>
       <OurClients />
       <OurCustomers />
-      <CaseStudies />
-      <GreatSoftware />
+      <section id="case-studies">
+        <CaseStudies />
+      </section>
+      <section id="blog">
+        <GreatSoftware />
+      </section>
       <Development />
       <TechStack />
-      <Alcaline />
+      <section id="how-it-works">
+        <Alcaline />
+      </section>
       <Resources />
-      <Hire />
+      <section id="hire">
+        <Hire />
+      </section>
       <Footer />
     </div>
   );

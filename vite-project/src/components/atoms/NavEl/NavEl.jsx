@@ -1,9 +1,16 @@
 import "./NavEl.scss";
+import { useState } from "react";
 
-const NavEl = ({ link }) => {
+const NavEl = ({ link, onClick, clickedItem }) => {
   return (
     <li>
-      <a href="">{link}</a>
+      <a
+        href="#"
+        onClick={onClick}
+        className={`nav__anchor ${clickedItem ? "active" : ""}`}
+      >
+        {link}
+      </a>
     </li>
   );
 };

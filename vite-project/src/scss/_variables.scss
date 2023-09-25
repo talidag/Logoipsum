@@ -1,13 +1,19 @@
 @import './colors';
 @import './typography';
 
-// Paddings
+// Navbar
+
+$nav-padding: 1.8rem 2.5rem 1.8rem 4rem;
+$nav-gap: 22rem;
+$nav-links-gap: 5rem;
+$nav-btn-padding: 1.5rem 2.5rem;
+$nav-btn-radius: 0.5rem;
+
+
 
 $header-padding-left: 15rem;
 
-$nav-padding: 1.8rem 2.5rem 1.8rem 4rem;
-$nav-btn-padding: 1.5rem 2.5rem;
-$nav-btn-radius: 0.5rem;
+
 
 $hero-padding: 7rem 6rem 9rem 10rem;
 $hero-text-padding: 10rem 0;

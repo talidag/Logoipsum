@@ -1,5 +1,26 @@
 @import "../../../scss/variables";
 
-a:hover {
+.nav__anchor:hover {
     color: $bg-gray-400;
 }
+
+.nav__anchor.active {
+    /* Add your styles for clicked links here */
+    color: $bg-primary; /* For example, change the color to red */
+    font-weight: bold; /* Add any other styles you want */
+  }
+
+.nav__anchor.active::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 3%;
+    border-bottom: 3px solid $bg-primary;
+}
+  
+  
+  
+  
+  
+  

@@ -5,9 +5,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: $nav-padding;
-    gap: 22rem;
+    gap: $nav-gap;
     box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.45);
     font-family: $inter;
+    position: sticky;
+    top: 0;
+    background-color: $bg-white;
+    z-index: 3;
 }
 
 .nav {
@@ -17,10 +21,14 @@ nav {
     
     &__links {
         display: flex;
-        gap: 5rem;
+        gap: $nav-links-gap;
         font-size: $fs-nav-link;
         color: $bg-gray-700;
         font-weight: $fw-medium;
-
     }
+}
+
+.scrolled {
+    background-color:$bg-white; 
+    border-bottom: 3px solid $bg-border;
 }
