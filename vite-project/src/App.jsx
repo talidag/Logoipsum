@@ -7,6 +7,7 @@ import GreatSoftware from "./components/organisms/GreatSoftware/GreatSoftware";
 import Hero from "./components/organisms/Hero/Hero";
 import OurClients from "./components/organisms/OurClients/OurClients";
 import OurCustomers from "./components/organisms/OurCustomers/OurCustomers";
+import Resources from "./components/organisms/Resources/Resources";
 import Services from "./components/organisms/Services/Services";
 import TechStack from "./components/organisms/TechStack/TechStack";
 
@@ -24,6 +25,7 @@ const App = () => {
       <Development />
       <TechStack />
       <Alcaline />
+      <Resources />
     </div>
   );
 };

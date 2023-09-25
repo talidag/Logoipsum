@@ -1,0 +1,13 @@
+@import "../../../scss/variables";
+
+.resources {
+
+    &__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        padding-top: 6.6rem;
+        padding-bottom: 15rem;;
+   }   
+}
