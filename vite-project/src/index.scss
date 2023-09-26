@@ -1,4 +1,5 @@
 @import './scss/reset.scss';
+@import "./scss/variables";
 
 .app {
     max-width: 1440px;
@@ -7,4 +8,12 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: $inter;
+}
+
+button {
+    font-family: inherit;
 }

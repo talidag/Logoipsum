@@ -5,9 +5,8 @@
 }
 
 .nav__anchor.active {
-    /* Add your styles for clicked links here */
-    color: $bg-primary; /* For example, change the color to red */
-    font-weight: bold; /* Add any other styles you want */
+    color: $bg-primary; 
+    font-weight: bold;
   }
 
 .nav__anchor.active::before {

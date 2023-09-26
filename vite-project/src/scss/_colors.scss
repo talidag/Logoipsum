@@ -30,3 +30,10 @@ $bg-white: #FFFFFF;
 $services-bk: #F9F9FF;
 
 $bg-border: #E7DAED;
+
+
+@mixin gradient-text() {
+    background: -webkit-linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

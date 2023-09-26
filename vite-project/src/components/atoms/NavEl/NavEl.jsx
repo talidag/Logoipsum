@@ -1,5 +1,4 @@
 import "./NavEl.scss";
-import { useState } from "react";
 
 const NavEl = ({ link, onClick, clickedItem }) => {
   return (

@@ -1,10 +1,9 @@
 @import "../../../scss/variables";
 
 .services {
-    font-family: $inter;
     z-index: 2;
-    border-top: 1px solid #E7DAED;
-    border-bottom: 1px solid #E7DAED;
+    border-top: 1px solid $bg-border;
+    border-bottom: 1px solid $bg-border;
     background-color: $services-bk;
 
     & h2 {

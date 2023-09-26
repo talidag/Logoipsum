@@ -8,7 +8,6 @@
         border: 1px solid #FFFFFF;
         display: flex;
         align-items: center;
-        font-family: $inter;
         padding: 8.5rem;
         gap: 30rem;
         line-height: 5.5rem;
@@ -28,7 +27,6 @@
             font-weight: $fw-bold;
             letter-spacing: -0.09px;
             font-size: $fs-hero-p;
-            font-family: inherit;
             white-space: nowrap;
         }
     }

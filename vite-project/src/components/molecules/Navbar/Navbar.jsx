@@ -39,7 +39,8 @@ const Navbar = () => {
       setTimeout(() => {
         const targetPosition = targetSection.offsetTop - navbarHeight;
         window.scrollTo({
-          top: targetPosition,
+          // For better view of services
+          top: targetId === "services" ? targetPosition - 90 : targetPosition,
           behavior: "smooth",
         });
       }, 50); // Adding a setTimeout because of visual issue
@@ -58,7 +59,9 @@ const Navbar = () => {
   return (
     <nav className={hasScrolled ? "nav scrolled" : "nav"} ref={navbarRef}>
       <div className="nav__logo">
-        <img src={logo} alt="" />
+        <a href="/">
+          <img src={logo} alt="" />
+        </a>
       </div>
       <div className="nav__links">
         {navLinks.map((navEl, index) => (

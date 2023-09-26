@@ -4,7 +4,6 @@
     display: flex;
     align-items: start;
     gap: 6rem;
-    font-family: $inter;
     color: $bg-gray-600;
     padding-right: 10rem;
     padding-left: 10rem;
@@ -59,7 +58,6 @@
 .copyright {
     color: $bg-gray-700;
     padding: 3.5rem 52rem;
-    font-family: $inter;
     
     font-size: $fs-services-p;
     line-height: 1rem;
